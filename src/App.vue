@@ -21,5 +21,6 @@ export default {
 
 <style 
     HeaderContainerlang="scss">
-@import './style/main.scss'
+    @import './style/main.scss';
+   
 </style>
