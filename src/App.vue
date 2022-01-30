@@ -4,6 +4,7 @@
     <main-content/>
     <footer-container/>
     <footer-list></footer-list>
+    <footer-bottome/>
     
   </div>
 </template>
@@ -14,6 +15,7 @@ import HeaderContainer from './components/HeaderContainer.vue'
 import MainContent from './components/MainContent.vue'
 import FooterContainer from './components/FooterContainer.vue'
 import FooterList from './components/FooterList.vue'
+import FooterBottome from './components/FooterBottome.vue'
 
 
 export default {
@@ -23,7 +25,8 @@ export default {
    HeaderContainer,
    MainContent,
    FooterContainer,
-   FooterList
+   FooterList,
+    FooterBottome
   
   }
 }
