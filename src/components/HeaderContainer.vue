@@ -37,6 +37,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '@/style/variables.scss';
 
 header {
     flex-wrap: wrap;
@@ -79,15 +80,16 @@ header {
                 justify-content: center;
 
                 li{
-                    font-size:13px;
+                    font-size:12px;
+                    font-weight: bold;
                     padding:10px;
                     cursor: pointer;
                     
                     
                 
                    &:hover{
-                     color:#47a4fa;
-                     border-bottom: 3px solid #47a4fa;
+                     color:$blue;
+                     border-bottom: 3px solid $blue;
                     }
 
                 }
